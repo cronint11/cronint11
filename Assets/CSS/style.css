@@ -1,6 +1,11 @@
+html body {
+    height: 100%;
+}
 body {
-    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    background-image: url("../Images/herringbone.png");
 }
 h1 h2 h3 h4 h5 h6 {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -10,19 +15,27 @@ div {
     border: solid 1px;
     padding: 10px;
 }*/
-div {
-    align-items: center;
+#page-content {
+    flex: 1 0 auto;
 }
-
+#sticky-footer {
+    flex-shrink: none;
+}
+.footer {
+    background-color: red;
+    color: white;
+    text-align: center;
+}
 .nameplate {
     background-color: orange;
     color: teal;
     font-size: xx-large;
     font-weight: bolder;
-    text-align: center;
+}
+.mytab {
+    border-left: solid 1px red;
 }
 .nav {
-    text-align: center;
     border: none;
-    background-color: lightgrey;
+    background: none;
 }
