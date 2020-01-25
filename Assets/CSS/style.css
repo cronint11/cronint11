@@ -22,6 +22,12 @@ div {
     background-color: red;
     color: white;
     text-align: center;
+    padding-top: 5px;
+    width: 100%;
+    position: fixed;
+    border-top: 2px solid;
+    left: 0;
+    bottom: 0;
 }
 .nameplate {
     background-color: orange;
@@ -30,5 +36,5 @@ div {
     font-weight: bolder;
 }
 .mytab {
-    border-left: solid 1px red;
+    /* border-left: solid 1px red; */
 }
