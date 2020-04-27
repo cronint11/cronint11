@@ -18,12 +18,12 @@
 <!-- Navbar --->
 <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
   <div class="container-fluid">
-	<a class="navbar-brand" href="#"><img class="myIcon" src="Assets/img/profile_pic.jpg"></a>
+	<a class="navbar-brand" href="#"><img alt="Tim Cronin profile picture" class="myIcon" src="Assets/img/profile_pic.jpg"></a><span id="name">Tim Cronin</span>
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-	  <span class="navbar-toggler-icon"></span>
+	  <span class="navbar-toggler-icon"><span style="display:none;">Nav</span></span>
 	</button>
 	<div class="collapse navbar-collapse" id="navbarResponsive">
-	  <span id="name">Tim Cronin</span>
+	  
 	  <ul class="navbar-nav ml-auto">
 		<li class="nav-item active">
 		  <a class="nav-link" href="#">home</a>
@@ -48,21 +48,21 @@
 	</ul>
 	<div class="carousel-inner">
 		<div class="carousel-item active">
-			<img src="Assets/img/White Buffalo_7x5.jpg" defer>
+			<img alt="White Buffalo" src="Assets/img/White Buffalo_7x5.jpg" defer>
 			<div class="carousel-caption">
 				<h1 class="display-2">White Buffalo</h1>
 				<!-- <button type="button" class="btn btn-outline-dark btn-lg">About Me</button> -->
 			</div>
 		</div>
 		<div class="carousel-item">
-			<img src="Assets/img/Normandy_7x5.jpg" async>
+			<img alt="Normandy" src="Assets/img/Normandy_7x5.jpg" async>
 			<div class="carousel-caption">
 				<!-- <h1 class="display-2"></h1>
 				<button type="button" class="btn btn-outline-light btn-lg">Portfolio</button> -->
 			</div>
 		</div>
 		<div class="carousel-item">
-			<img src="Assets/img/Yellowstone_7x5.jpg" async>
+			<img alt="Yellowstone" src="Assets/img/Yellowstone_7x5.jpg" async>
 			<div class="carousel-caption">
 				<!-- <h1 class="display-2"></h1>
 				<button type="button" class="btn btn-outline-dark btn-lg">Contact</button> -->
@@ -136,11 +136,11 @@
 			<h3>react.js</h3>
 		</div>
 		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-4">
-			<img src="Assets/img/csharp.png" class="c-sharp">
+			<img alt="c sharp icon" src="Assets/img/csharp.png" class="c-sharp">
 			<h3>C# & C++ & C</h3>
 		</div>
 		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-4">
-			<img src="Assets/img/nosql.png" class="nosql">
+			<img alt="nosql icon" src="Assets/img/nosql.png" class="nosql">
 			<h3>MongoDB & IndexedDB</h3>
 		</div>
 		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-12 col-xl-4">
@@ -180,7 +180,7 @@
 	<div class="container-fluid padding">
 		<div class="row text-center">
 			<div class="col-sm-6 col-md-3">
-				<img class="gif" src="Assets/img/frisbee.gif">
+				<img alt="frisbee gif" class="gif" src="Assets/img/frisbee.gif">
 			</div>
 			<div class="col-sm-6 col-md-3">
 				<span>placeholder</span>
@@ -210,7 +210,7 @@
 	<div class="row padding">
 		<div class="col-md-4">
 			<div class="card">
-				<img class="card-img-top" src="Assets/img/Cane-wide.jpg">
+				<img alt="Cane a Rhodesian Ridgeback" class="card-img-top" src="Assets/img/Cane-wide.jpg">
 				<div class="card-body">
 					<h4 class="card-title">Cane</h4>
 					<p class="card-text">We've been told he is a paradigmatic Rhodesian Ridgeback! (Had to look that one up - means poster child <i class="em em-grin"></i>) Instead of hunting lions, he chases his black on black striped brother!</p>
@@ -220,7 +220,7 @@
 		</div>
 		<div class="col-md-4">
 			<div class="card">
-				<img class="card-img-top" src="Assets/img/Jeffe-wide.jpg">
+				<img alt="Jeffe a black cat" class="card-img-top" src="Assets/img/Jeffe-wide.jpg">
 				<div class="card-body">
 					<h4 class="card-title">Jefferson</h4>
 					<p class="card-text">AKA El Jeffe and Heifer. He delights in eating from Cane's bowl and keeping the house free from all insects - by eating them <i class="em em-woozy_face"></i>. Let's be honest - we're just happy he lets us cohabitate with him!</p>
@@ -230,7 +230,7 @@
 		</div>
 		<div class="col-md-4">
 			<div class="card">
-				<img class="card-img-top" src="Assets/img/Jon Dough-wide.jpg">
+				<img alt="Jon Dough a sourdough starter" class="card-img-top" src="Assets/img/Jon Dough-wide.jpg">
 				<div class="card-body">
 					<h4 class="card-title">Jon Dough</h4>
 					<p class="card-text">The number one fungi in the house! Ironically Jon spends most of his time hiding from Jeffe in the microwave... He may be the most boring pet, but we feed him everyday anyway!</p>
@@ -251,12 +251,12 @@
 			<hr>
 		</div>
 		<div class="col-12 social padding">
-			<a href="https://www.linkedin.com/in/cronint11" target="_blank"><i class="fab fa-linkedin"></i></a>
-			<a href="https://github.com/cronint11/" target="_blank"><i class="fab fa-github"></i></a>
-			<a href="mailto:tm.timcronin@gmail.com" target="_blank"><i class="far fa-envelope"></i></a>
+			<a href="https://www.linkedin.com/in/cronint11" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+			<a href="https://github.com/cronint11/" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+			<a href="mailto:tm.timcronin@gmail.com" target="_blank" rel="noopener"><i class="far fa-envelope"></i></a>
 		</div>
 		<div class="col-12 text-center padding">
-			<a href="#"><h4>Resume</h4></a>
+			<a href="https://docs.google.com/document/d/1NFWiOeYKZ0zj6YqPjXzyfg305p7obn6P3zop9E68H4Y/edit?usp=sharing" target="_blank" rel="noopener"><h4>Resume</h4></a>
 		</div>
 	</div>
 </div>
@@ -266,12 +266,12 @@
 	<div class="container-fluid padding">
 		<div class="row text-center">
 			<div class="col-md-6">
-				<img src="Assets/img/profile_pic.jpg" class="myIcon">
+				<img alt="Tim Cronin profile picture" src="Assets/img/profile_pic.jpg" class="myIcon">
 				<h4>Tim Cronin</h4>
 				<hr class="light">
 				<p>Miami, FL</p>
 				<p>+1-303-385-3036</p>
-				<a href="mailto:tm.timcronin@gmail.com" target="_blank">tm.timcronin@gmail.com</a>
+				<a href="mailto:tm.timcronin@gmail.com" target="_blank" rel="noopener">tm.timcronin@gmail.com</a>
 			</div>
 			<!-- <div class="col-md-4">
 				<hr class="light">

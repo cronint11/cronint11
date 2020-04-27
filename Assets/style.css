@@ -6,6 +6,9 @@ html, body {
   font-family: 'Poppins', sans-serif;
   color: #222;
 }
+#name {
+  font-size: 40px;
+}
 .navbar {
   padding: .8rem;
 }
@@ -84,11 +87,17 @@ html, body {
 .fa-github {
   color: #000000;
 }
+.fa-envelope {
+  color: #d44638;
+}
 .fa-linkedin:hover {
   color: #0192e0;
 }
 .fa-github:hover {
   color: #2f4f4f;
+}
+.fa-envelope:hover {
+  color: #b23121;
 }
 #fixed {
   color: #989999;
@@ -137,6 +146,9 @@ hr.w100{
   }
 }
 @media (max-width: 576px) {
+  #name {
+    font-size: 32px;
+  }
   .carousel-caption {
     top: 40%;
   }
@@ -207,9 +219,6 @@ figure {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-}
-#name {
-  font-size: 40px;
 }
 
 
