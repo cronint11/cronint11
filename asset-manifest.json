@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ed29836a.chunk.css",
+    "main.js": "/static/js/main.a79655d4.chunk.js",
+    "main.js.map": "/static/js/main.a79655d4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.811639d9.js",
+    "runtime-main.js.map": "/static/js/runtime-main.811639d9.js.map",
+    "static/css/2.829c9cb5.chunk.css": "/static/css/2.829c9cb5.chunk.css",
+    "static/js/2.083269dc.chunk.js": "/static/js/2.083269dc.chunk.js",
+    "static/js/2.083269dc.chunk.js.map": "/static/js/2.083269dc.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.831b837753f8850c2a56b5b2769ac987.js": "/precache-manifest.831b837753f8850c2a56b5b2769ac987.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.829c9cb5.chunk.css.map": "/static/css/2.829c9cb5.chunk.css.map",
+    "static/css/main.ed29836a.chunk.css.map": "/static/css/main.ed29836a.chunk.css.map",
+    "static/js/2.083269dc.chunk.js.LICENSE.txt": "/static/js/2.083269dc.chunk.js.LICENSE.txt",
+    "static/media/Cane-wide.jpg": "/static/media/Cane-wide.879760d3.jpg",
+    "static/media/Jeffe-wide.jpg": "/static/media/Jeffe-wide.ad0a0704.jpg",
+    "static/media/Jon Dough-wide.jpg": "/static/media/Jon Dough-wide.fb15958a.jpg",
+    "static/media/csharp.png": "/static/media/csharp.51fd3720.png",
+    "static/media/frisbee.gif": "/static/media/frisbee.e0c33291.gif",
+    "static/media/App.css": "/static/media/mac.f21dceb6.png",
+    "static/media/nosql.png": "/static/media/nosql.8304b59f.png",
+    "static/media/profile_pic.jpg": "/static/media/profile_pic.decf9b0d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.811639d9.js",
+    "static/css/2.829c9cb5.chunk.css",
+    "static/js/2.083269dc.chunk.js",
+    "static/css/main.ed29836a.chunk.css",
+    "static/js/main.a79655d4.chunk.js"
+  ]
+}
